@@ -22,7 +22,15 @@
 
     <div class="team">
         <!-- loop through all our team members and put their info on the page -->
-        
+         <!-- this is exact;y like a forEach loop with plain JavaScript -->
+        {{#each people}}
+            <div class="user-panel">
+                <img class="u-avatar" src="images/{{avatar}}" alt="">
+                <a class="u-link" href="{{ID}}">See More Info</a>
+                <h1 class="u-name">{{Name}}</h1>
+                <h3 class="u-name">{{JobTitle}}</h3>
+            </div>
+        {{/each}}
     </div>
     </div>
 
