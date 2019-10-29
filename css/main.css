@@ -69,10 +69,10 @@ nav {
 
 body {
   color: white;
-  background-color: #3f3f3f; }
+  background-color: black; }
 
 h1, h2, h3 {
-  color: #f2f2f2; }
+  color: yellow; }
 
 .panel {
   min-height: 60vh; }
@@ -88,7 +88,7 @@ h1, h2, h3 {
   display: none; }
 
 footer {
-  color: white; }
+  color: orange; }
 
 ul {
   margin: 0;
