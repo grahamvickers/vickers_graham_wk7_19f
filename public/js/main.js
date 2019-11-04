@@ -35,7 +35,7 @@ const myVM = (() => {
         event.preventDefault(); 
         // debugger;
         let imgSrc = this.previousElementSibling.getAttribute('src')
-        let url = `/${this.getAttribute('href')}`; 
+        let url = `/users/${this.getAttribute('href')}`; 
 
         fetch(url)
             .then(res => res.json()) //parse the json result into a plain object
